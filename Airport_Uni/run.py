@@ -137,7 +137,7 @@ def train_one_epoch(model, optimizer, data_obj, args):
 def main():
     SEEDS = [1, 2, 3]
     timestamp = datetime.datetime.now().strftime('%m%d_%H%M')
-    args.file_path = '/workspace/airport/airport_daily_flight_merged.csv'
+    args.file_path = 'dataset/airport_daily_flight_merged.csv'
 
     # Candidate Models
     if args.target == 'both':
@@ -419,6 +419,19 @@ def main():
             ])
         
         print(f"[Leaderboard] {args.model} result added to {comp_log_path}")
+        
+        # ------------------------------------------------------------
+        # [Cleanup] Delete saved checkpoints after final output
+        # ------------------------------------------------------------
+        checkpoint_dir = os.path.join("model_states", args.target, args.model)
+        if os.path.exists(checkpoint_dir):
+            import shutil
+            shutil.rmtree(checkpoint_dir)
+            print(f"[Cleanup] Removed checkpoint directory: {checkpoint_dir}")
+        else:
+            print(f"[Cleanup] No checkpoint directory found to remove.")
+        
+        
 
     print("\n[ALL DONE] Grand Search Finished.")
 #===========================================================================
