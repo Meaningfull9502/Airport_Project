@@ -22,9 +22,9 @@ from models import LSTM, NBeats, TSMixer, PatchTST, iTransformer, TimeXer
 def get_valid_combinations(model_name):
     # 1. Common Parameters
     base_grid = {
-        'lr': [1e-3],#, 1e-4, 1e-5],
-        'd_model': [64],#, 128, 256, 512],
-        'n_layers': [1],# 2, 3, 4, 5],
+        'lr': [1e-3, 1e-4, 1e-5],
+        'd_model': [64, 128, 256, 512],
+        'n_layers': [1, 2, 3, 4, 5],
         #'norm_mode': ['fix', 'normal', 'revin'],
     }
     
@@ -90,7 +90,7 @@ parser.add_argument('--seq_len', type=int, default=28)
 parser.add_argument('--label_len', type=int, default=0)
 parser.add_argument('--pred_len', type=int, default=1)
 parser.add_argument('--batch_size', type=int, default=64)
-parser.add_argument('--epochs', type=int, default=1)
+parser.add_argument('--epochs', type=int, default=1000)
 parser.add_argument('--patience', type=int, default=10)
 parser.add_argument('--lr', type=float, default=0.001)
 
