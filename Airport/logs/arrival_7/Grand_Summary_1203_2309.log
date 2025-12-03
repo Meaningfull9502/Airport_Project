@@ -1,0 +1,87 @@
+============================================================
+ GRAND SEARCH START | Target: arrival
+ Candidate Models: ['lstm', 'nbeats']
+============================================================
+
+
+============================================================
+ >>> STARTING MODEL: LSTM
+ >>> Total Combinations: 180
+============================================================
+   [Config 1/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 1, 'seq_len': 28}
+      -> Score: 6051.3177
+      [!] New Best for lstm
+   [Config 2/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 1, 'seq_len': 91}
+      -> Score: 6052.2120
+   [Config 3/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 1, 'seq_len': 365}
+      -> Score: 5914.0760
+      [!] New Best for lstm
+   [Config 4/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 2, 'seq_len': 28}
+      -> Score: 5938.5788
+   [Config 5/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 2, 'seq_len': 91}
+      -> Score: 6002.2365
+   [Config 6/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 2, 'seq_len': 365}
+      -> Score: 5913.6423
+      [!] New Best for lstm
+   [Config 7/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 3, 'seq_len': 28}
+      -> Score: 5933.4959
+   [Config 8/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 3, 'seq_len': 91}
+      -> Score: 6021.6216
+   [Config 9/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 3, 'seq_len': 365}
+      -> Score: 5962.7598
+   [Config 10/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 4, 'seq_len': 28}
+      -> Score: 6031.7232
+   [Config 11/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 4, 'seq_len': 91}
+      -> Score: 6014.2189
+   [Config 12/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 4, 'seq_len': 365}
+      -> Score: 5986.8305
+   [Config 13/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 5, 'seq_len': 28}
+      -> Score: 5946.5974
+   [Config 14/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 5, 'seq_len': 91}
+      -> Score: 6039.9105
+   [Config 15/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 5, 'seq_len': 365}
+      -> Score: 6063.1485
+   [Config 16/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 1, 'seq_len': 28}
+      -> Score: 5959.0159
+   [Config 17/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 1, 'seq_len': 91}
+      -> Score: 5980.7180
+   [Config 18/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 1, 'seq_len': 365}
+      -> Score: 5877.3344
+      [!] New Best for lstm
+   [Config 19/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 2, 'seq_len': 28}
+      -> Score: 5833.2680
+      [!] New Best for lstm
+   [Config 20/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 2, 'seq_len': 91}
+      -> Score: 5931.1746
+   [Config 21/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 2, 'seq_len': 365}
+      -> Score: 5898.8569
+   [Config 22/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 3, 'seq_len': 28}
+      -> Score: 5960.5124
+   [Config 23/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 3, 'seq_len': 91}
+      -> Score: 5946.3263
+   [Config 24/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 3, 'seq_len': 365}
+      -> Score: 5868.8815
+   [Config 25/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 4, 'seq_len': 28}
+      -> Score: 5961.9626
+   [Config 26/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 4, 'seq_len': 91}
+      -> Score: 5800.3966
+      [!] New Best for lstm
+   [Config 27/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 4, 'seq_len': 365}
+      -> Score: 6014.7618
+   [Config 28/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 5, 'seq_len': 28}
+      -> Score: 5964.9785
+   [Config 29/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 5, 'seq_len': 91}
+      -> Score: 6004.7755
+   [Config 30/180] Params: {'lr': 0.001, 'd_model': 128, 'n_layers': 5, 'seq_len': 365}
+      -> Score: 6006.2489
+   [Config 31/180] Params: {'lr': 0.001, 'd_model': 256, 'n_layers': 1, 'seq_len': 28}
+      -> Score: 5910.9397
+   [Config 32/180] Params: {'lr': 0.001, 'd_model': 256, 'n_layers': 1, 'seq_len': 91}
+      -> Score: 6033.7668
+   [Config 33/180] Params: {'lr': 0.001, 'd_model': 256, 'n_layers': 1, 'seq_len': 365}
+      -> Score: 5864.4046
+   [Config 34/180] Params: {'lr': 0.001, 'd_model': 256, 'n_layers': 2, 'seq_len': 28}
+      -> Score: 6049.7912
+   [Config 35/180] Params: {'lr': 0.001, 'd_model': 256, 'n_layers': 2, 'seq_len': 91}
+      -> Score: 5943.6074
+   [Config 36/180] Params: {'lr': 0.001, 'd_model': 256, 'n_layers': 2, 'seq_len': 365}

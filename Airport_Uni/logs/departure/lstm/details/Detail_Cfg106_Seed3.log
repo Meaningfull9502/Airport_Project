@@ -1,264 +1,264 @@
 DETAILED LOG | Model: lstm | Seed: 3
-FULL CONFIG: {'gpu': '1', 'target': 'departure', 'cv_start_year': 2017, 'cv_end_year': 2019, 'test_year': 2024, 'use_corona': False, 'seq_len': 28, 'label_len': 0, 'pred_len': 7, 'batch_size': 64, 'epochs': 1000, 'patience': 10, 'lr': 0.001, 'model': 'lstm', 'd_model': 512, 'n_heads': 4, 'n_layers': 1, 'dropout': 0.1, 'activation': 'gelu', 'patch_len': 16, 'factor': 5, 'norm_mode': 'revin', 'use_dbloss': False, 'device': device(type='cuda'), 'stride': 16, 'file_path': 'dataset/airport_daily_flight_merged.csv', 'seed': 3, 'val_year': 2019, 'ndims': 1}
+FULL CONFIG: {'gpu': '3', 'target': 'departure', 'cv_start_year': 2017, 'cv_end_year': 2019, 'test_year': 2024, 'use_corona': False, 'seq_len': 28, 'label_len': 0, 'pred_len': 7, 'batch_size': 64, 'epochs': 1000, 'patience': 10, 'lr': 0.001, 'model': 'lstm', 'd_model': 512, 'n_heads': 4, 'n_layers': 1, 'dropout': 0.1, 'activation': 'gelu', 'patch_len': 16, 'factor': 5, 'norm_mode': 'revin', 'use_dbloss': False, 'device': device(type='cuda'), 'stride': 16, 'file_path': 'dataset/airport_daily_flight_merged.csv', 'seed': 3, 'val_year': 2019, 'ndims': 1}
 
--------------------- [Fold: 2017] ExpID: 62888 --------------------
-- Epoch 000, ExpID 62888
+-------------------- [Fold: 2017] ExpID: 34397 --------------------
+- Epoch 000, ExpID 34397
 Train - Loss: 21980158.57
 Val - Loss, MSE, RMSE, MAE, MAPE: 39779360.00, 39779359.67, 6249.21, 4906.04, 6.35%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 0, 60394256.00, 60394256.00, 7515.80, 5671.40, 6.86%
-- Epoch 001, ExpID 62888
+- Epoch 001, ExpID 34397
 Train - Loss: 19621742.99
 Val - Loss, MSE, RMSE, MAE, MAPE: 36172584.00, 36172585.00, 5956.92, 4609.16, 5.92%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 1, 55971244.00, 55971243.33, 7187.03, 5385.02, 6.49%
-- Epoch 002, ExpID 62888
+- Epoch 002, ExpID 34397
 Train - Loss: 18682181.71
 Val - Loss, MSE, RMSE, MAE, MAPE: 33058248.00, 33058250.67, 5680.45, 4305.30, 5.53%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 2, 52262348.00, 52262349.33, 6918.50, 5125.10, 6.19%
-- Epoch 003, ExpID 62888
+- Epoch 003, ExpID 34397
 Train - Loss: 17570900.06
 Val - Loss, MSE, RMSE, MAE, MAPE: 33172752.00, 33172752.33, 5699.59, 4385.81, 5.61%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 2, 52262348.00, 52262349.33, 6918.50, 5125.10, 6.19%
-- Epoch 004, ExpID 62888
+- Epoch 004, ExpID 34397
 Train - Loss: 16568041.94
 Val - Loss, MSE, RMSE, MAE, MAPE: 29088604.00, 29088601.67, 5308.34, 3936.99, 5.04%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 4, 46295612.00, 46295609.67, 6511.64, 4706.30, 5.67%
-- Epoch 005, ExpID 62888
+- Epoch 005, ExpID 34397
 Train - Loss: 15409759.85
 Val - Loss, MSE, RMSE, MAE, MAPE: 27102958.00, 27102957.33, 5123.68, 3796.45, 4.85%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 5, 44272764.00, 44272762.33, 6422.61, 4647.96, 5.56%
-- Epoch 006, ExpID 62888
+- Epoch 006, ExpID 34397
 Train - Loss: 14491714.14
 Val - Loss, MSE, RMSE, MAE, MAPE: 26998956.00, 26998954.50, 5105.58, 3752.83, 4.80%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 6, 43460152.00, 43460147.00, 6364.99, 4635.58, 5.57%
-- Epoch 007, ExpID 62888
+- Epoch 007, ExpID 34397
 Train - Loss: 13640398.86
 Val - Loss, MSE, RMSE, MAE, MAPE: 24285904.00, 24285902.83, 4852.41, 3625.74, 4.62%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 42068292.00, 42068288.67, 6256.78, 4540.87, 5.39%
-- Epoch 008, ExpID 62888
+- Epoch 008, ExpID 34397
 Train - Loss: 13236488.06
 Val - Loss, MSE, RMSE, MAE, MAPE: 24575088.00, 24575086.33, 4865.24, 3627.97, 4.64%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 42068292.00, 42068288.67, 6256.78, 4540.87, 5.39%
-- Epoch 009, ExpID 62888
+- Epoch 009, ExpID 34397
 Train - Loss: 12339384.53
 Val - Loss, MSE, RMSE, MAE, MAPE: 25489956.00, 25489953.83, 4962.51, 3700.85, 4.75%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 42068292.00, 42068288.67, 6256.78, 4540.87, 5.39%
-- Epoch 010, ExpID 62888
+- Epoch 010, ExpID 34397
 Train - Loss: 11647485.11
 Val - Loss, MSE, RMSE, MAE, MAPE: 24592686.00, 24592684.67, 4838.58, 3632.84, 4.65%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 42068292.00, 42068288.67, 6256.78, 4540.87, 5.39%
-- Epoch 011, ExpID 62888
+- Epoch 011, ExpID 34397
 Train - Loss: 10685385.31
 Val - Loss, MSE, RMSE, MAE, MAPE: 24545548.00, 24545544.83, 4814.08, 3572.65, 4.56%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 42068292.00, 42068288.67, 6256.78, 4540.87, 5.39%
-- Epoch 012, ExpID 62888
+- Epoch 012, ExpID 34397
 Train - Loss: 9930860.89
 Val - Loss, MSE, RMSE, MAE, MAPE: 23741072.00, 23741072.33, 4719.69, 3529.02, 4.49%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 12, 38749816.00, 38749813.67, 5957.71, 4300.38, 5.16%
-- Epoch 013, ExpID 62888
+- Epoch 013, ExpID 34397
 Train - Loss: 8876560.96
 Val - Loss, MSE, RMSE, MAE, MAPE: 24679846.00, 24679846.17, 4820.15, 3605.70, 4.58%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 12, 38749816.00, 38749813.67, 5957.71, 4300.38, 5.16%
-- Epoch 014, ExpID 62888
+- Epoch 014, ExpID 34397
 Train - Loss: 7930784.49
 Val - Loss, MSE, RMSE, MAE, MAPE: 23191796.00, 23191795.58, 4650.65, 3514.68, 4.47%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 015, ExpID 62888
+- Epoch 015, ExpID 34397
 Train - Loss: 7134635.48
 Val - Loss, MSE, RMSE, MAE, MAPE: 24181816.00, 24181817.00, 4786.83, 3625.37, 4.60%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 016, ExpID 62888
+- Epoch 016, ExpID 34397
 Train - Loss: 6351892.50
 Val - Loss, MSE, RMSE, MAE, MAPE: 25451632.00, 25451632.17, 4933.27, 3778.78, 4.82%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 017, ExpID 62888
+- Epoch 017, ExpID 34397
 Train - Loss: 5547130.78
 Val - Loss, MSE, RMSE, MAE, MAPE: 26236164.00, 26236164.83, 4967.83, 3738.08, 4.74%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 018, ExpID 62888
+- Epoch 018, ExpID 34397
 Train - Loss: 4806691.37
 Val - Loss, MSE, RMSE, MAE, MAPE: 25404744.00, 25404744.50, 4888.68, 3726.81, 4.74%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 019, ExpID 62888
+- Epoch 019, ExpID 34397
 Train - Loss: 4155319.94
 Val - Loss, MSE, RMSE, MAE, MAPE: 24374848.00, 24374846.67, 4790.69, 3646.12, 4.63%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 020, ExpID 62888
+- Epoch 020, ExpID 34397
 Train - Loss: 3430533.91
 Val - Loss, MSE, RMSE, MAE, MAPE: 25463910.00, 25463909.67, 4955.08, 3759.02, 4.78%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 021, ExpID 62888
+- Epoch 021, ExpID 34397
 Train - Loss: 3005700.78
 Val - Loss, MSE, RMSE, MAE, MAPE: 27270572.00, 27270571.00, 5109.75, 3890.19, 4.94%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 022, ExpID 62888
+- Epoch 022, ExpID 34397
 Train - Loss: 2568531.11
 Val - Loss, MSE, RMSE, MAE, MAPE: 25385240.00, 25385237.83, 4923.08, 3768.54, 4.79%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 023, ExpID 62888
+- Epoch 023, ExpID 34397
 Train - Loss: 2110983.36
 Val - Loss, MSE, RMSE, MAE, MAPE: 26439932.00, 26439933.83, 5020.62, 3827.97, 4.85%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
-- Epoch 024, ExpID 62888
+- Epoch 024, ExpID 34397
 Train - Loss: 1982095.33
 Val - Loss, MSE, RMSE, MAE, MAPE: 25054038.00, 25054039.00, 4904.11, 3741.01, 4.76%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 14, 43114232.00, 43114230.00, 6301.02, 4581.30, 5.52%
 Early Stopping at Epoch 24
 Fold 2017 Best RMSE: 6301.0179
 
--------------------- [Fold: 2018] ExpID: 20859 --------------------
-- Epoch 000, ExpID 20859
+-------------------- [Fold: 2018] ExpID: 3377 --------------------
+- Epoch 000, ExpID 3377
 Train - Loss: 23405694.51
 Val - Loss, MSE, RMSE, MAE, MAPE: 63332144.00, 63332146.00, 7608.93, 5741.82, 6.92%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 0, 52526704.00, 52526701.67, 7125.49, 5563.20, 6.00%
-- Epoch 001, ExpID 20859
+- Epoch 001, ExpID 3377
 Train - Loss: 21006425.13
 Val - Loss, MSE, RMSE, MAE, MAPE: 56944416.00, 56944418.33, 7225.71, 5352.71, 6.49%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 1, 44651536.00, 44651536.33, 6573.83, 5051.50, 5.48%
-- Epoch 002, ExpID 20859
+- Epoch 002, ExpID 3377
 Train - Loss: 19669409.35
 Val - Loss, MSE, RMSE, MAE, MAPE: 55692832.00, 55692833.00, 7069.84, 5167.67, 6.28%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 2, 42076532.00, 42076528.67, 6392.74, 4950.91, 5.38%
-- Epoch 003, ExpID 20859
+- Epoch 003, ExpID 3377
 Train - Loss: 18458464.91
 Val - Loss, MSE, RMSE, MAE, MAPE: 49095832.00, 49095832.33, 6695.69, 4816.02, 5.81%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 3, 40566640.00, 40566636.67, 6277.10, 4790.96, 5.18%
-- Epoch 004, ExpID 20859
+- Epoch 004, ExpID 3377
 Train - Loss: 17796106.86
 Val - Loss, MSE, RMSE, MAE, MAPE: 45357484.00, 45357480.33, 6447.72, 4683.83, 5.65%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 4, 38816012.00, 38816013.00, 6136.12, 4801.80, 5.20%
-- Epoch 005, ExpID 20859
+- Epoch 005, ExpID 3377
 Train - Loss: 16076475.35
 Val - Loss, MSE, RMSE, MAE, MAPE: 43847236.00, 43847235.33, 6348.16, 4578.10, 5.58%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 5, 41168872.00, 41168868.33, 6331.54, 4872.32, 5.28%
-- Epoch 006, ExpID 20859
+- Epoch 006, ExpID 3377
 Train - Loss: 15188345.78
 Val - Loss, MSE, RMSE, MAE, MAPE: 42566272.00, 42566273.33, 6255.82, 4516.86, 5.46%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 6, 36011636.00, 36011635.00, 5915.36, 4618.01, 4.99%
-- Epoch 007, ExpID 20859
+- Epoch 007, ExpID 3377
 Train - Loss: 14276686.09
 Val - Loss, MSE, RMSE, MAE, MAPE: 42566924.00, 42566922.33, 6239.56, 4435.17, 5.38%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 6, 36011636.00, 36011635.00, 5915.36, 4618.01, 4.99%
-- Epoch 008, ExpID 20859
+- Epoch 008, ExpID 3377
 Train - Loss: 13958674.27
 Val - Loss, MSE, RMSE, MAE, MAPE: 41482532.00, 41482531.00, 6169.13, 4537.83, 5.46%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 8, 39397888.00, 39397886.33, 6143.18, 4733.97, 5.13%
-- Epoch 009, ExpID 20859
+- Epoch 009, ExpID 3377
 Train - Loss: 12930858.51
 Val - Loss, MSE, RMSE, MAE, MAPE: 39943288.00, 39943286.17, 6056.44, 4379.48, 5.28%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 010, ExpID 20859
+- Epoch 010, ExpID 3377
 Train - Loss: 12402768.76
 Val - Loss, MSE, RMSE, MAE, MAPE: 40183400.00, 40183397.67, 6100.75, 4522.30, 5.45%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 011, ExpID 20859
+- Epoch 011, ExpID 3377
 Train - Loss: 11362516.46
 Val - Loss, MSE, RMSE, MAE, MAPE: 40593300.00, 40593298.67, 6096.66, 4502.74, 5.40%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 012, ExpID 20859
+- Epoch 012, ExpID 3377
 Train - Loss: 10699350.10
 Val - Loss, MSE, RMSE, MAE, MAPE: 43032864.00, 43032863.00, 6276.49, 4551.62, 5.44%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 013, ExpID 20859
+- Epoch 013, ExpID 3377
 Train - Loss: 10137006.61
 Val - Loss, MSE, RMSE, MAE, MAPE: 41076992.00, 41076988.33, 6046.48, 4341.68, 5.26%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 014, ExpID 20859
+- Epoch 014, ExpID 3377
 Train - Loss: 9402494.44
 Val - Loss, MSE, RMSE, MAE, MAPE: 43580240.00, 43580239.00, 6183.67, 4491.00, 5.43%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 015, ExpID 20859
+- Epoch 015, ExpID 3377
 Train - Loss: 8660420.12
 Val - Loss, MSE, RMSE, MAE, MAPE: 43487068.00, 43487064.00, 6214.42, 4512.06, 5.44%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 016, ExpID 20859
+- Epoch 016, ExpID 3377
 Train - Loss: 7287380.55
 Val - Loss, MSE, RMSE, MAE, MAPE: 45751680.00, 45751679.67, 6411.43, 4664.81, 5.60%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 017, ExpID 20859
+- Epoch 017, ExpID 3377
 Train - Loss: 6819775.17
 Val - Loss, MSE, RMSE, MAE, MAPE: 45222056.00, 45222055.67, 6343.08, 4645.92, 5.61%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 018, ExpID 20859
+- Epoch 018, ExpID 3377
 Train - Loss: 5822734.28
 Val - Loss, MSE, RMSE, MAE, MAPE: 46904828.00, 46904824.33, 6499.79, 4697.24, 5.65%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
-- Epoch 019, ExpID 20859
+- Epoch 019, ExpID 3377
 Train - Loss: 4851990.57
 Val - Loss, MSE, RMSE, MAE, MAPE: 48490704.00, 48490707.00, 6599.32, 4818.86, 5.81%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 9, 36279656.00, 36279654.33, 5932.38, 4573.21, 4.95%
 Early Stopping at Epoch 19
 Fold 2018 Best RMSE: 5932.3754
 
--------------------- [Fold: 2019] ExpID: 20982 --------------------
-- Epoch 000, ExpID 20982
+-------------------- [Fold: 2019] ExpID: 12672 --------------------
+- Epoch 000, ExpID 12672
 Train - Loss: 26160494.33
 Val - Loss, MSE, RMSE, MAE, MAPE: 49178028.00, 49178029.33, 6923.25, 5409.05, 5.85%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 0, 53056512.00, 53056512.67, 7182.36, 5608.72, 5.89%
-- Epoch 001, ExpID 20982
+- Epoch 001, ExpID 12672
 Train - Loss: 23001776.67
 Val - Loss, MSE, RMSE, MAE, MAPE: 43653916.00, 43653911.33, 6492.52, 4978.64, 5.41%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 1, 47754960.00, 47754956.33, 6771.62, 5153.77, 5.44%
-- Epoch 002, ExpID 20982
+- Epoch 002, ExpID 12672
 Train - Loss: 21637341.14
 Val - Loss, MSE, RMSE, MAE, MAPE: 38359312.00, 38359314.00, 6091.81, 4675.57, 5.07%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 2, 43709816.00, 43709813.33, 6455.69, 4822.19, 5.09%
-- Epoch 003, ExpID 20982
+- Epoch 003, ExpID 12672
 Train - Loss: 19795803.95
 Val - Loss, MSE, RMSE, MAE, MAPE: 38774296.00, 38774292.33, 6139.10, 4676.67, 5.10%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 2, 43709816.00, 43709813.33, 6455.69, 4822.19, 5.09%
-- Epoch 004, ExpID 20982
+- Epoch 004, ExpID 12672
 Train - Loss: 18361886.23
 Val - Loss, MSE, RMSE, MAE, MAPE: 34916116.00, 34916113.67, 5807.97, 4517.10, 4.88%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 4, 38107196.00, 38107193.67, 5986.30, 4481.77, 4.70%
-- Epoch 005, ExpID 20982
+- Epoch 005, ExpID 12672
 Train - Loss: 16911407.53
 Val - Loss, MSE, RMSE, MAE, MAPE: 36246128.00, 36246129.00, 5922.75, 4620.70, 4.99%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 4, 38107196.00, 38107193.67, 5986.30, 4481.77, 4.70%
-- Epoch 006, ExpID 20982
+- Epoch 006, ExpID 12672
 Train - Loss: 16213208.20
 Val - Loss, MSE, RMSE, MAE, MAPE: 36174444.00, 36174442.00, 5929.98, 4632.48, 5.02%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 4, 38107196.00, 38107193.67, 5986.30, 4481.77, 4.70%
-- Epoch 007, ExpID 20982
+- Epoch 007, ExpID 12672
 Train - Loss: 15058999.68
 Val - Loss, MSE, RMSE, MAE, MAPE: 34687020.00, 34687020.00, 5822.08, 4519.07, 4.88%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 008, ExpID 20982
+- Epoch 008, ExpID 12672
 Train - Loss: 15011609.63
 Val - Loss, MSE, RMSE, MAE, MAPE: 35925880.00, 35925878.67, 5916.99, 4614.67, 5.00%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 009, ExpID 20982
+- Epoch 009, ExpID 12672
 Train - Loss: 13901458.08
 Val - Loss, MSE, RMSE, MAE, MAPE: 35387520.00, 35387516.33, 5857.38, 4597.69, 4.96%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 010, ExpID 20982
+- Epoch 010, ExpID 12672
 Train - Loss: 12582080.40
 Val - Loss, MSE, RMSE, MAE, MAPE: 38996960.00, 38996961.67, 6100.67, 4780.87, 5.18%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 011, ExpID 20982
+- Epoch 011, ExpID 12672
 Train - Loss: 11821045.03
 Val - Loss, MSE, RMSE, MAE, MAPE: 41787528.00, 41787527.67, 6257.86, 4725.25, 5.12%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 012, ExpID 20982
+- Epoch 012, ExpID 12672
 Train - Loss: 10859703.99
 Val - Loss, MSE, RMSE, MAE, MAPE: 36762344.00, 36762342.67, 5949.65, 4548.37, 4.90%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 013, ExpID 20982
+- Epoch 013, ExpID 12672
 Train - Loss: 9938429.27
 Val - Loss, MSE, RMSE, MAE, MAPE: 41175016.00, 41175014.00, 6258.78, 4758.46, 5.13%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 014, ExpID 20982
+- Epoch 014, ExpID 12672
 Train - Loss: 8697362.76
 Val - Loss, MSE, RMSE, MAE, MAPE: 40116816.00, 40116813.67, 6228.78, 4784.20, 5.15%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 015, ExpID 20982
+- Epoch 015, ExpID 12672
 Train - Loss: 7674125.39
 Val - Loss, MSE, RMSE, MAE, MAPE: 39498684.00, 39498681.50, 6124.93, 4637.61, 5.01%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 016, ExpID 20982
+- Epoch 016, ExpID 12672
 Train - Loss: 6897233.46
 Val - Loss, MSE, RMSE, MAE, MAPE: 43814288.00, 43814287.67, 6483.51, 4897.92, 5.27%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%
-- Epoch 017, ExpID 20982
+- Epoch 017, ExpID 12672
 Train - Loss: 6029571.79
 Val - Loss, MSE, RMSE, MAE, MAPE: 43955412.00, 43955411.50, 6432.27, 4905.75, 5.30%
 Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 7, 38786984.00, 38786982.33, 6081.30, 4579.23, 4.81%

@@ -136,13 +136,13 @@ def train_one_epoch(model, optimizer, data_obj, args):
 def main():
     SEEDS = [1, 2, 3]
     timestamp = datetime.datetime.now().strftime('%m%d_%H%M')
-    args.file_path = '/home/jung9502/Airport/airport_flight_with_holiday.csv'
+    args.file_path = 'dataset/airport_daily_flight_merged.csv'
 
     # Candidate Models
     if args.target == 'both':
         candidate_models = ['lstm', 'tsmixer', 'itransformer', 'timexer']
     else:
-        candidate_models = ['lstm', 'nbeats', 'tsmixer', 'patchtst']
+        candidate_models = ['lstm', 'nbeats']
     
     # Target Directory
     target_log_dir = os.path.join("logs", f'{args.target}_{args.pred_len}')
