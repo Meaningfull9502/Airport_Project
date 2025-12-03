@@ -159,12 +159,12 @@ def main():
 
     # Candidate Models
     if args.target == 'both':
-        candidate_models = ['tsmixer_covar', 'itransformer', 'timexer', 'lstm']
+        candidate_models = ['lstm', 'tsmixer_covar', 'itransformer', 'timexer']
     else:
         if args.use_covar:
-            candidate_models = ['patchtst', 'lstm', 'tsmixer_covar']
+            candidate_models = ['lstm', 'patchtst', 'tsmixer_covar']
         else:
-            candidate_models = ['patchtst', 'lstm', 'nbeats', 'tsmixer']
+            candidate_models = ['lstm', 'patchtst', 'nbeats', 'tsmixer']
     
     # Target Directory
     target_log_dir = os.path.join("logs", f'{args.target}_{args.pred_len}_{args.use_covar}')
