@@ -15,7 +15,7 @@ class Model(nn.Module):
         self.holiday_dim = 16
         self.holiday_embed = nn.Embedding(4, self.holiday_dim)
         
-        if self.target == 'both':
+        if self.target == 'both' or self.use_covar:
             self.lstm = nn.LSTM(
                 input_size=self.ndims + self.holiday_dim,
                 hidden_size=args.d_model, 
@@ -51,7 +51,7 @@ class Model(nn.Module):
         elif self.norm_mode == "revin":
             x_enc = self.revin(x_enc, 'norm')
             
-        if self.target == 'both':
+        if self.target == 'both' or self.use_covar:
             past_holiday = x_mark_enc.long()
             past_emb = self.holiday_embed(past_holiday) # [B, L, 16]
             x_enc = torch.cat([x_enc, past_emb], dim=-1)
