@@ -21,7 +21,7 @@ def get_valid_combinations(model_name):
     # 1. Base Parameters (Common)
     # 기본 파라미터 그리드 정의
     lrs = [1e-3, 1e-4, 1e-5]
-    seq_lens = [28, 91]
+    seq_lens = [56, 91, 365]
     d_models = [64, 128, 256, 512]
     n_layers = [2, 4, 6]
     
