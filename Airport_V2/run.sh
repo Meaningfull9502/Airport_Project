@@ -13,7 +13,7 @@ pip install reformer_pytorch
 ### lr: [1e-3, 1e-4, 1e-5]
 
 ## model setting
-### seq_len: [28, 91]
+### seq_len: [56, 91, 365]
 ### d_model: [64, 128, 256, 512]
 ### n_layers: [2, 4, 6]
 ### if patch based model(patchtst, timexer):
@@ -28,24 +28,18 @@ pip install reformer_pytorch
 
 #  예측 코드
 ## target: arrival, departure, both
-## pred_len: 1, 7
+## pred_len: 56
 ## if both --> use_covar(미래 예측에 공변량 사용 여부): True, False
 ## if arrival, departure --> use_covar(과거 임베딩 및 미래 예측에 공변량 사용 여부): True, False / But Not NBeats
 
 # 공변량 사용
-#cd ./Airport
-LD_LIBRARY_PATH="" python run.py --target both --pred_len 1 --use_covar --gpu 2
-LD_LIBRARY_PATH="" python run.py --target both --pred_len 7 --use_covar --gpu 2
-LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 1 --use_covar --gpu 2
-LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 7 --use_covar --gpu 2
-LD_LIBRARY_PATH="" python run.py --target departure --pred_len 1 --use_covar --gpu 2
-LD_LIBRARY_PATH="" python run.py --target departure --pred_len 7 --use_covar --gpu 2
+cd ./Airport
+LD_LIBRARY_PATH="" python run.py --target both --pred_len 56 --use_covar
+LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 56 --use_covar
+LD_LIBRARY_PATH="" python run.py --target departure --pred_len 56 --use_covar
 
 # 공변량 미사용
-#cd ./Airport
-LD_LIBRARY_PATH="" python run.py --target both --pred_len 1 --gpu 2
-LD_LIBRARY_PATH="" python run.py --target both --pred_len 7  --gpu 2
-LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 1 --gpu 2
-LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 7 --gpu 2
-LD_LIBRARY_PATH="" python run.py --target departure --pred_len 1 --gpu 2
-LD_LIBRARY_PATH="" python run.py --target departure --pred_len 7 --gpu 2
+cd ./Airport
+LD_LIBRARY_PATH="" python run.py --target both --pred_len 56
+LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 56
+LD_LIBRARY_PATH="" python run.py --target departure --pred_len 56
