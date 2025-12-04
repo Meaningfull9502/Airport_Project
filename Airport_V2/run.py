@@ -156,8 +156,8 @@ def main():
     #SEEDS = [1, 2, 3]
     SEEDS = [1]
     timestamp = datetime.datetime.now().strftime('%m%d_%H%M')
-    #args.file_path = '/workspace/Airport/airport_flight_with_holiday.csv'
-    args.file_path = 'dataset/airport_daily_flight_merged.csv'
+    args.file_path = 'dataset/airport_flight_with_holiday.csv'
+    #args.file_path = 'dataset/airport_daily_flight_merged.csv'
     
     # Candidate Models
     if args.target == 'both':
