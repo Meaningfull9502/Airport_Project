@@ -153,10 +153,12 @@ def train_one_epoch(model, optimizer, data_obj, args):
 
 
 def main():
-    SEEDS = [1, 2, 3]
+    #SEEDS = [1, 2, 3]
+    SEEDS = [1]
     timestamp = datetime.datetime.now().strftime('%m%d_%H%M')
-    args.file_path = '/workspace/Airport/airport_flight_with_holiday.csv'
-
+    #args.file_path = '/workspace/Airport/airport_flight_with_holiday.csv'
+    args.file_path = 'dataset/airport_daily_flight_merged.csv'
+    
     # Candidate Models
     if args.target == 'both':
         candidate_models = ['lstm', 'tsmixer_covar', 'itransformer', 'timexer']

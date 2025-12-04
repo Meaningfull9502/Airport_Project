@@ -1,0 +1,11 @@
+============================================================
+ GRAND SEARCH START | Target: both
+ Candidate Models: ['lstm', 'tsmixer_covar', 'itransformer', 'timexer']
+============================================================
+
+
+============================================================
+ >>> STARTING MODEL: LSTM
+ >>> Total Combinations: 72
+============================================================
+   [Config 1/72] Params: {'lr': 0.001, 'seq_len': 28, 'd_model': 64, 'n_layers': 2}

@@ -195,20 +195,20 @@ def _get_range_idx(df, target_year, seq_len=0, end_year=None):
 
 def load_dataset(args, is_refit=False):
     # 1. Load CSV & Handle Gap (Corona)
-    if os.path.exists(args.file_path):
-        df = pd.read_csv(args.file_path)
-        df['date'] = pd.to_datetime(df['date'])
-        df = df.sort_values('date').reset_index(drop=True)
-        
-        # [Gap Strategy] 2020~2022 삭제 (학습 방해), 2023 유지 (2024, 2025 예측용 Context)
-        if not args.use_corona:
-            covid_start = pd.Timestamp('2020-01-01')
-            covid_end = pd.Timestamp('2022-12-31')
-            df = df[(df['date'] < covid_start) | (df['date'] > covid_end)]
-            df = df.reset_index(drop=True)
-    else:
-        print(f"Error: csv file not found at {args.file_path}")
-        return None
+    #if os.path.exists(args.file_path):
+    df = pd.read_csv(args.file_path)
+    df['date'] = pd.to_datetime(df['date'])
+    df = df.sort_values('date').reset_index(drop=True)
+    
+    # [Gap Strategy] 2020~2022 삭제 (학습 방해), 2023 유지 (2024, 2025 예측용 Context)
+    if not args.use_corona:
+        covid_start = pd.Timestamp('2020-01-01')
+        covid_end = pd.Timestamp('2022-12-31')
+        df = df[(df['date'] < covid_start) | (df['date'] > covid_end)]
+        df = df.reset_index(drop=True)
+    #else:
+    #    print(f"Error: csv file not found at {args.file_path}")
+    #    return None
 
     if args.target == 'both':
         data_df = df[['arrival', 'departure', 'holiday_type']]
