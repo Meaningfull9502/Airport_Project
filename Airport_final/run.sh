@@ -7,7 +7,7 @@
 ### lr: [1e-3, 1e-4, 1e-5]
 
 ## model setting
-### seq_len: [28, 91, 365]
+### seq_len: [56, 91, 365]
 ### d_model: [64, 128, 256, 512]
 ### n_layers: [2, 4, 6]
 ### if patch based model(patchtst, timexer):
