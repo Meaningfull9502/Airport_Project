@@ -1,0 +1,11 @@
+============================================================
+ GRAND SEARCH START | Target: both
+ Candidate Models: ['timexer', 'tsmixer_covar', 'lstm', 'itransformer']
+============================================================
+
+
+============================================================
+ >>> STARTING MODEL: TIMEXER
+ >>> Total Combinations: 540
+============================================================
+   [Config 1/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
