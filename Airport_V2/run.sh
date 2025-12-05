@@ -33,13 +33,11 @@ pip install reformer_pytorch
 ## if arrival, departure --> use_covar(과거 임베딩 및 미래 예측에 공변량 사용 여부): True, False / But Not NBeats
 
 # 공변량 사용
-cd ./Airport
-LD_LIBRARY_PATH="" python run.py --target both --pred_len 56 --use_covar
-LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 56 --use_covar
-LD_LIBRARY_PATH="" python run.py --target departure --pred_len 56 --use_covar
+LD_LIBRARY_PATH="" python run.py --target both --pred_len 56 --use_covar --gpu 2
+LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 56 --use_covar --gpu 2
+LD_LIBRARY_PATH="" python run.py --target departure --pred_len 56 --use_covar --gpu 2
 
 # 공변량 미사용
-cd ./Airport
-LD_LIBRARY_PATH="" python run.py --target both --pred_len 56
-LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 56
-LD_LIBRARY_PATH="" python run.py --target departure --pred_len 56
+LD_LIBRARY_PATH="" python run.py --target both --pred_len 56 --gpu 2
+LD_LIBRARY_PATH="" python run.py --target arrival --pred_len 56 --gpu 2
+LD_LIBRARY_PATH="" python run.py --target departure --pred_len 56 --gpu 2
