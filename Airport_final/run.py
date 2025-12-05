@@ -20,10 +20,10 @@ def get_valid_combinations(model_name):
     
     # 1. Base Parameters (Common)
     # 기본 파라미터 그리드 정의
-    lrs = [1e-3]#, 1e-4, 1e-5]
-    seq_lens = [56]#, 91, 365]
-    d_models = [64]#, 128, 256, 512]
-    n_layers = [2]#, 4, 6]
+    lrs = [1e-3, 1e-4, 1e-5]
+    seq_lens = [56, 91, 365]
+    d_models = [64, 128, 256, 512]
+    n_layers = [2, 4, 6]
     
     # 2. Model Categories
     # 모델 성격에 따른 분류
@@ -102,7 +102,7 @@ parser.add_argument('--seq_len', type=int, default=28)
 parser.add_argument('--label_len', type=int, default=0)
 parser.add_argument('--pred_len', type=int, default=56)
 parser.add_argument('--batch_size', type=int, default=256)
-parser.add_argument('--epochs', type=int, default=1)
+parser.add_argument('--epochs', type=int, default=1000)
 parser.add_argument('--patience', type=int, default=10)
 parser.add_argument('--lr', type=float, default=0.001)
 
