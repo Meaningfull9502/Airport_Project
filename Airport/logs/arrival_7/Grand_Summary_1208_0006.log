@@ -1,0 +1,20 @@
+============================================================
+ GRAND SEARCH START | Target: arrival
+ Candidate Models: ['tsmixer', 'patchtst']
+============================================================
+
+
+============================================================
+ >>> STARTING MODEL: TSMIXER
+ >>> Total Combinations: 180
+============================================================
+   [Config 1/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 1, 'seq_len': 28}
+      -> Score: 5916.9746
+      [!] New Best for tsmixer
+   [Config 2/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 1, 'seq_len': 91}
+      -> Score: 5831.5384
+      [!] New Best for tsmixer
+   [Config 3/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 1, 'seq_len': 365}
+      -> Score: 5544.8906
+      [!] New Best for tsmixer
+   [Config 4/180] Params: {'lr': 0.001, 'd_model': 64, 'n_layers': 2, 'seq_len': 28}

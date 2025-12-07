@@ -241,3 +241,20 @@
    [Config 29/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
       -> Score: 6982.2370
    [Config 30/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6954.3925
+   [Config 31/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6992.7127
+   [Config 32/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6926.6387
+      [!] New Best for patchtst
+   [Config 33/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7122.8424
+   [Config 34/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6964.5137
+   [Config 35/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7035.0203
+   [Config 36/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6929.2927
+   [Config 37/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6999.7030
+   [Config 38/540] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}

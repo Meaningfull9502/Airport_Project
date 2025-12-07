@@ -1099,3 +1099,5 @@
    [Config 533/540] Params: {'lr': 1e-05, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
       -> Score: 5816.7524
    [Config 534/540] Params: {'lr': 1e-05, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5558.5784
+   [Config 535/540] Params: {'lr': 1e-05, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}

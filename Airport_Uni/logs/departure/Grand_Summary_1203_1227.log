@@ -3333,3 +3333,5 @@
    [Config 549/4800] Params: {'lr': 0.001, 'pred_len': 1, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'seq_len': 91, 'patch_len': 28}
       -> Score: 4667.8503
    [Config 550/4800] Params: {'lr': 0.001, 'pred_len': 1, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'seq_len': 365, 'patch_len': 7}
+      -> Score: 4947.8556
+   [Config 551/4800] Params: {'lr': 0.001, 'pred_len': 1, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'seq_len': 365, 'patch_len': 14}
