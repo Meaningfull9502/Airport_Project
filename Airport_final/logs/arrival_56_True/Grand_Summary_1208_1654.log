@@ -375,3 +375,608 @@
    [Config 96/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
       -> Score: 6400.6798
    [Config 97/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6497.1925
+   [Config 98/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6181.9050
+   [Config 99/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6635.8359
+   [Config 100/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6292.2341
+   [Config 101/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6507.6378
+   [Config 102/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6194.8997
+   [Config 103/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6304.2551
+   [Config 104/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6269.9470
+   [Config 105/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6207.3707
+   [Config 106/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6229.3220
+   [Config 107/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6301.2709
+   [Config 108/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6286.6389
+   [Config 109/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6627.8273
+   [Config 110/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6389.3317
+   [Config 111/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6810.5372
+   [Config 112/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6342.3576
+   [Config 113/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6636.5158
+   [Config 114/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6274.5205
+   [Config 115/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6625.1613
+   [Config 116/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6303.5223
+   [Config 117/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6431.2599
+   [Config 118/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6164.3811
+   [Config 119/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6422.2216
+   [Config 120/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6266.2285
+   [Config 121/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6398.0818
+   [Config 122/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6144.7619
+   [Config 123/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6376.5785
+   [Config 124/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6242.4679
+   [Config 125/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6224.4640
+   [Config 126/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6362.8515
+   [Config 127/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6246.4703
+   [Config 128/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6213.7301
+   [Config 129/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6380.0536
+   [Config 130/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6217.5712
+   [Config 131/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6088.6374
+   [Config 132/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6233.2690
+   [Config 133/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6827.2587
+   [Config 134/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6379.4986
+   [Config 135/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6600.5694
+   [Config 136/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6234.7355
+   [Config 137/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6924.3870
+   [Config 138/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6344.8793
+   [Config 139/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6641.1305
+   [Config 140/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6236.5191
+   [Config 141/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6556.7135
+   [Config 142/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6290.0638
+   [Config 143/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6317.9215
+   [Config 144/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6202.9878
+   [Config 145/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6412.7082
+   [Config 146/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6254.3090
+   [Config 147/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6365.6962
+   [Config 148/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6147.7650
+   [Config 149/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6224.7063
+   [Config 150/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6268.3068
+   [Config 151/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6095.8750
+   [Config 152/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5921.7174
+   [Config 153/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6135.9379
+   [Config 154/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6084.3277
+   [Config 155/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6117.8812
+   [Config 156/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 256, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6061.6334
+   [Config 157/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6517.3042
+   [Config 158/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6389.7840
+   [Config 159/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6567.6278
+   [Config 160/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6293.6143
+   [Config 161/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6488.8222
+   [Config 162/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6332.0831
+   [Config 163/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6652.7562
+   [Config 164/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6306.7327
+   [Config 165/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6239.5921
+   [Config 166/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6144.5762
+   [Config 167/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6317.2740
+   [Config 168/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6138.4334
+   [Config 169/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5944.8346
+   [Config 170/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6199.3035
+   [Config 171/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6393.1609
+   [Config 172/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6096.1308
+   [Config 173/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5796.4523
+      [!] New Best for patchtst
+   [Config 174/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6103.5637
+   [Config 175/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6129.7123
+   [Config 176/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6073.9710
+   [Config 177/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6118.2498
+   [Config 178/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6029.7104
+   [Config 179/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6183.5357
+   [Config 180/540] Params: {'lr': 0.0001, 'seq_len': 91, 'd_model': 512, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6035.5286
+   [Config 181/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5948.3757
+   [Config 182/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5920.5071
+   [Config 183/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5908.0760
+   [Config 184/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5928.2771
+   [Config 185/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5951.7121
+   [Config 186/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5936.6538
+   [Config 187/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5887.7658
+   [Config 188/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6008.9632
+   [Config 189/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5905.3285
+   [Config 190/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6020.6224
+   [Config 191/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5821.4189
+   [Config 192/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5997.6104
+   [Config 193/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5917.0009
+   [Config 194/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5984.0780
+   [Config 195/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5918.0664
+   [Config 196/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5728.7905
+      [!] New Best for patchtst
+   [Config 197/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5929.6032
+   [Config 198/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5736.4148
+   [Config 199/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6022.9247
+   [Config 200/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5971.9810
+   [Config 201/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5949.0594
+   [Config 202/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5903.8830
+   [Config 203/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5877.1309
+   [Config 204/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5808.7324
+   [Config 205/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6049.4994
+   [Config 206/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6000.5789
+   [Config 207/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6084.0606
+   [Config 208/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5916.7147
+   [Config 209/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5923.5368
+   [Config 210/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6021.3231
+   [Config 211/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5786.2213
+   [Config 212/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6021.9645
+   [Config 213/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5834.2424
+   [Config 214/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6026.0666
+   [Config 215/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5679.4156
+      [!] New Best for patchtst
+   [Config 216/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5714.3200
+   [Config 217/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5836.4795
+   [Config 218/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5900.6122
+   [Config 219/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5794.2561
+   [Config 220/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5859.7102
+   [Config 221/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5906.9081
+   [Config 222/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 128, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 5921.5092
+   [Config 223/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5899.6219
+   [Config 224/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6189.1875
+   [Config 225/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6010.5215
+   [Config 226/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6020.4397
+   [Config 227/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5922.5381
+   [Config 228/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5983.2827
+   [Config 229/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5859.2306
+   [Config 230/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6082.2547
+   [Config 231/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5875.8596
+   [Config 232/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5789.7919
+   [Config 233/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5918.3614
+   [Config 234/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5840.2179
+   [Config 235/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5924.4863
+   [Config 236/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5880.6949
+   [Config 237/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6073.4874
+   [Config 238/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 5950.7761
+   [Config 239/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6061.7130
+   [Config 240/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6031.4690
+   [Config 241/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5842.9301
+   [Config 242/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6012.5199
+   [Config 243/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5813.3122
+   [Config 244/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5968.5078
+   [Config 245/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5679.8115
+   [Config 246/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 256, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 5913.7702
+   [Config 247/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6228.6249
+   [Config 248/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5980.9441
+   [Config 249/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5967.3501
+   [Config 250/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6184.8824
+   [Config 251/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5922.4460
+   [Config 252/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6159.5924
+   [Config 253/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5964.4196
+   [Config 254/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 5901.0376
+   [Config 255/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5903.8853
+   [Config 256/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5851.7107
+   [Config 257/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5877.7448
+   [Config 258/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5913.6263
+   [Config 259/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6162.5155
+   [Config 260/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5991.3217
+   [Config 261/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5946.6589
+   [Config 262/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6059.9095
+   [Config 263/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 5849.6848
+   [Config 264/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 5853.3546
+   [Config 265/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 5888.0318
+   [Config 266/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 5811.7207
+   [Config 267/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 5893.7347
+   [Config 268/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 5882.9457
+   [Config 269/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 5934.7659
+   [Config 270/540] Params: {'lr': 0.0001, 'seq_len': 365, 'd_model': 512, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 5896.7096
+   [Config 271/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7427.5479
+   [Config 272/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7411.4686
+   [Config 273/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7310.8334
+   [Config 274/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7325.9472
+   [Config 275/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7395.3723
+   [Config 276/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7501.8743
+   [Config 277/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7312.2157
+   [Config 278/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7153.3362
+   [Config 279/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7311.3197
+   [Config 280/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7385.8319
+   [Config 281/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7506.6925
+   [Config 282/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7446.9722
+   [Config 283/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7322.0997
+   [Config 284/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7353.6984
+   [Config 285/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7366.4882
+   [Config 286/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7340.6238
+   [Config 287/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7322.2620
+   [Config 288/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7352.9829
+   [Config 289/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7194.4543
+   [Config 290/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7050.4100
+   [Config 291/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7257.5507
+   [Config 292/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7333.0745
+   [Config 293/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7074.0023
+   [Config 294/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6980.5526
+   [Config 295/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7053.2646
+   [Config 296/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 7208.5321
+   [Config 297/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7174.3477
+   [Config 298/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7141.6175
+   [Config 299/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7313.9681
+   [Config 300/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7368.7170
+   [Config 301/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7374.3399
+   [Config 302/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7366.6423
+   [Config 303/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7274.6029
+   [Config 304/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 7305.9482
+   [Config 305/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7113.5237
+   [Config 306/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7032.6239
+   [Config 307/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7267.8998
+   [Config 308/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7265.5029
+   [Config 309/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7274.0742
+   [Config 310/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7242.3700
+   [Config 311/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7273.7187
+   [Config 312/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 128, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 7216.2450
+   [Config 313/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7097.6785
+   [Config 314/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7155.3195
+   [Config 315/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7180.7738
+   [Config 316/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7070.1119
+   [Config 317/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7137.3273
+   [Config 318/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6988.8852
+   [Config 319/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7282.4740
+   [Config 320/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 7218.7493
+   [Config 321/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7207.9194
+   [Config 322/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7325.1822
+   [Config 323/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7081.3441
+   [Config 324/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7182.0903
+   [Config 325/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7041.4821
+   [Config 326/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7158.4589
+   [Config 327/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7041.0157
+   [Config 328/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 7218.5153
+   [Config 329/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7173.2729
+   [Config 330/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 7281.6249
+   [Config 331/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7000.1925
+   [Config 332/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7141.2000
+   [Config 333/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7043.5240
+   [Config 334/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 7172.9389
+   [Config 335/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7015.9377
+   [Config 336/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 256, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 7163.8191
+   [Config 337/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7835.4981
+   [Config 338/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6929.5934
+   [Config 339/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7571.5657
+   [Config 340/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 7092.1051
+   [Config 341/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7468.7926
+   [Config 342/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6974.3838
+   [Config 343/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7302.3420
+   [Config 344/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6971.1036
+   [Config 345/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7132.8746
+   [Config 346/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6935.4567
+   [Config 347/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 7063.3880
+   [Config 348/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6916.7135
+   [Config 349/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7032.9799
+   [Config 350/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6886.3182
+   [Config 351/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7108.5500
+   [Config 352/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6850.6407
+   [Config 353/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 7169.7024
+   [Config 354/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6837.9331
+   [Config 355/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6970.7203
+   [Config 356/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6791.9851
+   [Config 357/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 7096.1630
+   [Config 358/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6816.0844
+   [Config 359/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 7052.8659
+   [Config 360/540] Params: {'lr': 1e-05, 'seq_len': 56, 'd_model': 512, 'n_layers': 6, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6849.5710
+   [Config 361/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6959.7197
+   [Config 362/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6810.1281
+   [Config 363/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6893.2182
+   [Config 364/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6738.5535
+   [Config 365/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6924.9032
+   [Config 366/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6673.8222
+   [Config 367/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6972.3341
+   [Config 368/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6627.5621
+   [Config 369/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6829.4958
+   [Config 370/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6570.2856
+   [Config 371/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6851.3127
+   [Config 372/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6408.4150
+   [Config 373/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6871.7769
+   [Config 374/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6568.4140
+   [Config 375/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6810.3606
+   [Config 376/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6587.5540
+   [Config 377/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6847.7848
+   [Config 378/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 64, 'n_layers': 6, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6514.8222
+   [Config 379/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6789.4740
+   [Config 380/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6738.8712
+   [Config 381/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6862.4855
+   [Config 382/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6697.5546
+   [Config 383/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6902.1922
+   [Config 384/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6680.6954
+   [Config 385/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6948.2397
+   [Config 386/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 2, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6582.3466
+   [Config 387/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6776.7677
+   [Config 388/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6610.4304
+   [Config 389/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6675.5024
+   [Config 390/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 4, 'patch_len': 14}
+      -> Score: 6325.3707
+   [Config 391/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 7}
+      -> Score: 6773.6484
+   [Config 392/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 8, 'patch_len': 14}
+      -> Score: 6440.6433
+   [Config 393/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 7}
+      -> Score: 6650.8412
+   [Config 394/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 4, 'n_heads': 16, 'patch_len': 14}
+      -> Score: 6465.7209
+   [Config 395/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 7}
+      -> Score: 6935.4307
+   [Config 396/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 2, 'patch_len': 14}
+      -> Score: 6529.6423
+   [Config 397/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 7}
+      -> Score: 6850.5216
+   [Config 398/540] Params: {'lr': 1e-05, 'seq_len': 91, 'd_model': 128, 'n_layers': 6, 'n_heads': 4, 'patch_len': 14}
