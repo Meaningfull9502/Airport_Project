@@ -9,3 +9,12 @@
  >>> Total Combinations: 72
 ============================================================
    [Config 1/72] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 64, 'n_layers': 2}
+      -> Score: 7107.2292
+      [!] New Best for lstm
+   [Config 2/72] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 64, 'n_layers': 4}
+      -> Score: 7474.3789
+   [Config 3/72] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 64, 'n_layers': 6}
+      -> Score: 7455.9440
+   [Config 4/72] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 2}
+      -> Score: 7380.1796
+   [Config 5/72] Params: {'lr': 0.0001, 'seq_len': 56, 'd_model': 128, 'n_layers': 4}
