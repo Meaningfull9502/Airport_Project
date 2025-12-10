@@ -29,12 +29,12 @@
 # 학습
 # 공변량 사용
 #python run.py --target both --pred_len 56 --use_covar --gpu 6
-python run.py --target both --pred_len 14 --use_covar --gpu 6
+#python run.py --target both --pred_len 14 --use_covar --gpu 6
 
-python run.py --target arrival --pred_len 56 --use_covar --gpu 6
-python run.py --target arrival --pred_len 56 --gpu 6 
-python run.py --target arrival --pred_len 14 --use_covar --gpu 6
-python run.py --target arrival --pred_len 14 --gpu 6 
+#python run.py --target arrival --pred_len 56 --use_covar --gpu 6
+#python run.py --target arrival --pred_len 56 --gpu 6 
+#python run.py --target arrival --pred_len 14 --use_covar --gpu 6
+#python run.py --target arrival --pred_len 14 --gpu 6 
 
 python run.py --target departure --pred_len 56 --use_covar --gpu 6
 python run.py --target departure --pred_len 56 --gpu 6 

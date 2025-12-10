@@ -1,0 +1,16 @@
+DETAILED LOG | Model: patchtst | Seed: 1
+FULL CONFIG: {'gpu': '6', 'target': 'arrival', 'cv_start_year': 2017, 'cv_end_year': 2019, 'test_year': 2024, 'use_corona': False, 'seq_len': 56, 'label_len': 0, 'pred_len': 14, 'batch_size': 256, 'epochs': 1000, 'patience': 10, 'lr': 1e-05, 'model': 'patchtst', 'd_model': 256, 'n_heads': 16, 'n_layers': 4, 'dropout': 0.1, 'activation': 'gelu', 'patch_len': 7, 'factor': 5, 'norm_mode': 'revin', 'use_covar': True, 'use_dbloss': False, 'device': device(type='cuda'), 'stride': 14, 'file_path': 'dataset/airport_flight_with_holiday.csv', 'seed': 1, 'val_year': 2019, 'ndims': 1}
+
+-------------------- [Fold: 2017] ExpID: 78819 --------------------
+- Epoch 000, ExpID 78819
+Train - Loss: 47027942.60
+Val - Loss, MSE, RMSE, MAE, MAPE: 63800920.00, 63800918.00, 7943.72, 6478.61, 8.28%
+Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 0, 97452640.00, 97452644.00, 9862.99, 7839.39, 9.18%
+- Epoch 001, ExpID 78819
+Train - Loss: 38988928.80
+Val - Loss, MSE, RMSE, MAE, MAPE: 53606132.00, 53606132.00, 7255.65, 5842.47, 7.45%
+Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 1, 87476480.00, 87476480.00, 9340.98, 7345.99, 8.57%
+- Epoch 002, ExpID 78819
+Train - Loss: 35518902.20
+Val - Loss, MSE, RMSE, MAE, MAPE: 49412872.00, 49412874.00, 6955.55, 5534.59, 7.05%
+Test - Best epoch, Loss, MSE, RMSE, MAE, MAPE: 2, 83845128.00, 83845128.00, 9139.80, 7122.59, 8.29%
