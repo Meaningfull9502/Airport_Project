@@ -31,15 +31,9 @@
 #python run.py --target both --pred_len 56 --use_covar --gpu 6
 #python run.py --target both --pred_len 14 --use_covar --gpu 6
 
-<<<<<<< HEAD
 #python run.py --target arrival --pred_len 56 --use_covar --gpu 6
 #python run.py --target arrival --pred_len 56 --gpu 6 
-=======
-python run.py --target arrival --pred_len 56 --use_covar --gpu 6
-python run.py --target arrival --pred_len 56 --gpu 6 
->>>>>>> 365b2b7375f533aa51da0fc9676f28479b766c5f
 #python run.py --target arrival --pred_len 14 --use_covar --gpu 6
 #python run.py --target arrival --pred_len 14 --gpu 6 
 
-python run.py --target departure --pred_len 56 --use_covar --gpu 6
-python run.py --target departure --pred_len 56 --gpu 6 
+python run.py --target departure --pred_len 56 --gpu 2
